@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# If the buildpack is here then assume it's meant to be run
+echo "exiftool"
+exit 0
