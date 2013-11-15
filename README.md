@@ -1,7 +1,7 @@
 Heroku buildpack that installs exiftool.
 
-Usage
-=====
+Installation
+============
 
 You probably want to compose this with other buildpack(s) using
 heroku-buildpack-multi (https://github.com/ddollar/heroku-buildpack-multi):
@@ -18,6 +18,11 @@ And add this to your `.buildpacks`, i.e.:
 https://github.com/benalavi/buildpack-exiftool
 https://github.com/heroku/heroku-buildpack-ruby
 ```
+
+Usage
+=====
+
+Once built you will have `exiftool` available on `PATH`.
 
 Testing
 =======
