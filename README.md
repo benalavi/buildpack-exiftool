@@ -38,7 +38,7 @@ exiftool-9.40 package
 ---------------------
 
 The exiftool-9.40 package this buildpack installs is available at
-https://s3.amazonaws.com/buildpack-exiftool/exiftool-$VERSION.tar.gz.
+https://s3.amazonaws.com/buildpack-exiftool/exiftool-9.40.tar.gz.
 
 It is simply a repackaged version of the one available at
 http://www.sno.phy.queensu.ca/~phil/exiftool/ with only the exiftool binary and
