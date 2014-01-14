@@ -1,3 +1,6 @@
+_Check out https://github.com/benalavi/buildpack-packages which is a more
+up-to-date way to install `s3cmd` (and other simple binary packages) on Heroku._
+
 Heroku buildpack that installs exiftool.
 
 Installation
