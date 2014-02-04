@@ -17,5 +17,5 @@ curl --fail --retry 3 --retry-delay 1 --connect-timeout 3 https://s3.amazonaws.c
 
 echo "       Setting PATH"
 cat <<EOF > $BUILD_DIR/.profile.d/buildpack-exiftool.sh
-export PATH="\$PATH:$APP_DIR/vendor/exiftool-$VERSION"
+export PATH="\$PATH:$APP_DIR/vendor/exiftool-$VERSION/bin"
 EOF
